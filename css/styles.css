@@ -10968,7 +10968,11 @@ p {
   }
   .intro .intro-text {
     left: 0;
+<<<<<<< Updated upstream
     width: 60%;
+=======
+    width: 40%;
+>>>>>>> Stashed changes
     margin-top: 3rem;
     position: absolute;
   }
