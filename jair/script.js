@@ -9,6 +9,7 @@ const btnRaiz = document.querySelector('.btn-raiz');
 const btnPunto = document.querySelector('.btn-punto');
 const btnIgual = document.querySelector('.btn-igual');
 
+
 let operacion = '';
 let resultado = '';
 
@@ -54,7 +55,11 @@ btnPunto.addEventListener('click', () => {
 });
 
 btnIgual.addEventListener('click', calcular);
-
+btnInicio = document.getElementById('btnInicio');
+btnInicio.addEventListener('click', function () {
+   
+    window.location.href = '../index.html';
+});
 function calcular() {
     let valor2 = parseFloat(txtResultado.value);
     switch (operacion) {

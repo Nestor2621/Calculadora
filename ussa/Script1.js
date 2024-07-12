@@ -33,6 +33,13 @@ btnOperadores.forEach(btn => {
         }
     });
 });
+btnInicio = document.getElementById('btnInicio');
+
+
+btnInicio.addEventListener('click', function () {
+    
+    window.location.href = '../index.html';
+});
 
 btnBorrar.addEventListener('click', () => {
     txtResultado.value = '';

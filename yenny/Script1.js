@@ -38,6 +38,14 @@ btnBorrar.addEventListener('click', () => {
     resultado = '';
 });
 
+btnInicio = document.getElementById('btnInicio');
+
+
+btnInicio.addEventListener('click', function () {
+    
+    window.location.href = '../index.html';
+});
+
 btnBorrarUno.addEventListener('click', () => {
     txtResultado.value = txtResultado.value.slice(0, -1);
 });
